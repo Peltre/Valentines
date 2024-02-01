@@ -1,0 +1,240 @@
+#Portada {
+    padding: 10px; 
+}
+
+#Carita {
+    position: relative;
+    top: -40px;
+    margin-top: 0px;
+}
+
+#Patron { /* Top left */
+    transform: rotate(90deg);
+    height: 450px;
+    width:auto;
+    position: relative;
+    right: 700px;
+    top: -1460px;
+}
+
+#Patron2 { /* Top right */
+    transform: rotate(90deg);
+    height: 450px;
+    width:auto;
+    position: relative;
+    left: 700px;
+    top: -1915px;
+}
+
+#Patron3 { /* Bot Left */
+    transform: rotate(90deg);
+    height: 450px;
+    width:auto;
+    position: relative;
+    right: 700px;
+    top: -1715px;
+}
+
+#Patron4 { /* Bot Right*/
+    transform: rotate(90deg);
+    height: 450px;
+    width:auto;
+    position: relative;
+    left: 700px;
+    top: -2300px;
+}
+
+#Patron5 { /*Top Left*/
+    transform: rotate(90deg);
+    height: 450px;
+    width:auto;
+    position: relative;
+    right: 700px;
+    top: -950px;
+}
+
+#Patron6 { /* Bot Left*/
+    transform: rotate(90deg);
+    height: 450px;
+    width:auto;
+    position: relative;
+    right: 700px;
+    top: -750px;
+}
+#Patron7 { /* Top Right*/
+    transform: rotate(90deg);
+    height: 450px;
+    width:auto;
+    position: relative;
+    left: 700px;
+    top: -1875px;
+}
+
+#Patron8 { /* Bot Right*/
+    transform: rotate(90deg);
+    height: 450px;
+    width:auto;
+    position: relative;
+    left: 700px;
+    top: -1670px;
+}
+
+#Patron9 { /*Bot Left*/
+    transform: rotate(90deg);
+    height: 450px;
+    width:auto;
+    position: relative;
+    right: 700px;
+    top: -1200px;
+}
+
+#Patron10 { /* Top Left*/
+    transform: rotate(90deg);
+    height: 450px;
+    width:auto;
+    position: relative;
+    right: 700px;
+    top: -1000px;
+}
+#Patron11 { /* Top Right*/
+    transform: rotate(90deg);
+    height: 450px;
+    width:auto;
+    position: relative;
+    left: 700px;
+    top: -2100px;
+}
+
+#Patron12 { /* Bot Right*/
+    transform: rotate(90deg);
+    height: 450px;
+    width:auto;
+    position: relative;
+    left: 700px;
+    top: -1900px;
+}
+
+#No {
+    height: 800px;
+    width: auto;
+}
+
+#Si2 {
+    height: 800px;
+    width: auto;
+    position: relative;
+}
+
+#Kero {
+    height: 500px;
+    width: auto;
+    position: relative;
+    left: 700px;
+    top: -900px;
+}
+
+#Erwin {
+    height: 500px;
+    width: auto;
+    position: relative;
+    Right: 700px;
+    top: -1450px;
+}
+
+#Cara {
+    height: 600px;
+    width: auto;
+    position: relative;
+    top: -10px;
+}
+
+/*Definimos metodos para la clase de titulos*/
+.titulos {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    margin: 0;
+}
+
+.texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+#quote {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+
+#menu {
+    display: flex;
+    justify-content: center; /* Para centrar los enlaces horizontalmente */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1px; /* Ajusta el espaciado según tus preferencias */
+    margin-top: -60px; /* Espacio entre la imagen y los enlaces */
+}
+
+/* Estilos para los enlaces individuales */
+#Links,
+#Cartita,
+#Proyectos,
+#Galeria,
+#Si,
+#No,
+#github {
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 60px; /* Espaciado entre los enlaces */
+}
+
+/* Estilos para el enlace "Inicio" */
+#Inicio {
+    position: absolute;
+    top: 10px; /* Ajusta la posición arriba de la imagen */
+    right: 500px; /* Ajusta la posición a la derecha */
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Cartita2 {
+    position: absolute;
+    top: 10px; /* Ajusta la posición arriba de la imagen */
+    left: 500px; /* Ajusta la posición a la derecha */
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#background-rectangle {
+    position: fixed;
+    top: 0;
+    left: 50%; /* Alineamos a la mitad del ancho de la ventana */
+    transform: translateX(-50%); /* Centramos el rectángulo verticalmente */
+    width: 900px; /* Ancho del rectángulo vertical */
+    height: 100%; /* Altura que cubre toda la ventana */
+    background-color: white;
+    z-index: -1;
+}
+
+.img {
+    padding: 10px; 
+}
+
+.social {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social_cont{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.texto-con-wrap {
+    word-wrap: break-word; /* Hace que las palabras se ajusten al ancho del contenedor */
+    width: 345px; /* Establece el ancho del contenedor según tus necesidades */
+    border: 1px solid #ccc; /* Para visualizar los límites del contenedor */
+    padding: 10px; /* Añade relleno para separar el texto del borde */
+    margin-left: 780px;
+    font-size: large;
+}
